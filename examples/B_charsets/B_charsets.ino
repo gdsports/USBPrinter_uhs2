@@ -14,8 +14,8 @@ class PrinterOper : public USBPrinterAsyncOper
 
 uint8_t PrinterOper::OnInit(USBPrinter *pPrinter)
 {
-  Serial.println("USB Printer OnInit");
-  Serial.print("Bidirectional=");
+  Serial.println(F("USB Printer OnInit"));
+  Serial.print(F("Bidirectional="));
   Serial.println(pPrinter->isBidirectional());
   return 0;
 }
