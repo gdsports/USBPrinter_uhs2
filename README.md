@@ -76,3 +76,13 @@ modified to work with USB thermal receipt printers. Note different thermal
 printers from even if from the same manufacturers implement different subsets
 of the ESC POS commands. You will have to find the ones that work on your
 printer.
+
+## Related
+
+The following driver works on SAMD board with USB OTG ports such as Arduino Zero and MKR family.
+
+https://github.com/gdsports/USBPrinter_uhls
+
+The following driver works on Teensy 3.6 boards.
+
+https://github.com/gdsports/USBPrinter_t36
