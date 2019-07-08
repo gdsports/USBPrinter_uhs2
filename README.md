@@ -9,17 +9,17 @@ and the ESC POS Printer library on a Uno.
 
 https://github.com/felis/USB_Host_Shield_2.0
 
-Required patch
+Required patch not merged yet
 
-https://github.com/felis/USB_Host_Shield_2.0/pull/470
+https://github.com/felis/USB_Host_Shield_2.0/pull/473
 
 https://github.com/gdsports/ESC_POS_Printer
 
 Sample program that prints "Hello Printer" in large letters.
 
 ```
-#include "USBPrinter.h"			// https://github.com/gdsports/USBPrinter_uhs2
-#include "ESC_POS_Printer.h"	// https://github.com/gdsports/ESC_POS_Printer
+#include "USBPrinter.h"         // https://github.com/gdsports/USBPrinter_uhs2
+#include "ESC_POS_Printer.h"    // https://github.com/gdsports/ESC_POS_Printer
 
 class PrinterOper : public USBPrinterAsyncOper
 {
