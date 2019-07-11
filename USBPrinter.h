@@ -53,6 +53,7 @@ class USBPrinter : public USBDeviceConfig, public UsbConfigXtracter, public Stre
 		virtual int available();
 		virtual int read();
 		virtual int peek();
+        virtual void flush() { return; };
 		virtual size_t readBytes(char *buffer, size_t length);
 		virtual size_t write(const uint8_t *buffer, size_t size);
 		virtual size_t write(uint8_t byte) {return write(&byte, 1);};
